@@ -1,11 +1,29 @@
 html {
     color: dodgerblue;
+    font-family: sans-serif;
 }
 
 h1 {
-    color: lightseagreen;
+    color: darkslateblue;
+    background-color: lightcoral;
+    font-family: 'arial';
+
 }
 
+/*
 p {
     color: darkslateblue;
+    background-color: navajowhite;
+}
+*/
+body {
+    color: gold;
+    background-color: lightyellow;
+}
+a {
+    color: darkturquoise;
+}
+h2 {
+    font-family: serif;
+    font-weight: 900;
 }
