@@ -16,14 +16,26 @@ p {
     background-color: navajowhite;
 }
 */
+
 body {
     color: gold;
     background-color: lightyellow;
 }
+
 a {
     color: darkturquoise;
 }
+
 h2 {
     font-family: serif;
     font-weight: 900;
+}
+
+.cis-260 {
+    color: coral;
+}
+
+.donovan {
+    color: darkslateblue;
+    background-color: lightcoral;
 }

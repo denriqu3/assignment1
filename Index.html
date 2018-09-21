@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Title shows up in the browser tab</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <style>
-        a{
+        a {
             font-family: monospace;
             font-weight: 900;
         }
+
         h3 {
             color: lightsalmon;
             font-family: serif;
@@ -19,14 +21,17 @@
 <body>
     <h1>Heading 1 with External Style</h1> <br><strong><em>This is after H 1 and it's not going to appear on the same line as the heading. This line is nested because the em and strong code</em></strong>
     <h2 style="color: lightcoral;">Heading 2 with Incline Style</h2>
+    <h2 class="cis-260"> Heading 2 with Class Selector</h2>
     <h3 style="color: lightsalmon;">Heading 3 with Embedded Style</h3>
+    <h3 style="color: lightsalmon;"> Heading 3</h3>
     <p>A paragraph with external style</p>
     <p style="color: lightseagreen">A paragraph with inline style. Typing right away will show up in the live preview, but styling will be limited unless it appears inside of a the paragraph tag.</p>
     <p>A paragraph with external, html style. Typing right away will show up in the live preview, but styling will be limited unless it appears inside of a the paragraph tag. This line is not enclosed either so the unenclosed lines appear in the same paragraph. This is called free text and it is "inline." <br><br>However, line breaks and paragraph will break up the text.</p>
-    <p>CSS Syntax selector-declaration property-declaration value. You can turn off styles with command-forward slash.</p>
-    <a href="index.html">Home</a>
+    <p class="cis-260">CSS Syntax selector-declaration property-declaration value. You can turn off styles with command-forward slash.</p>
+    <a href="index.html" class="donovan">Home</a>
     <a href="https://www.naz.edu" target="_blank" style="color: darkcyan;">Naz-Absolute</a>
     <a href="css/styles.css">CSS-Relative</a>
     <a href="https://naz.mrooms3.net/my/" target="_blank" style="color: darkcyan;">Moodle</a>
 </body>
+
 </html>
