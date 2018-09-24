@@ -4,18 +4,11 @@ html {
 }
 
 h1 {
-    color: darkslateblue;
+    color: #6a26d6;
     background-color: lightcoral;
     font-family: 'arial';
 
 }
-
-/*
-p {
-    color: darkslateblue;
-    background-color: navajowhite;
-}
-*/
 
 body {
     color: gold;
